@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Weather</title>
+</head>
+
+<body>
+<div class="main-content">
+    {{>header}}
+    <p>Use this site to get your desired city weather</p>
+    <form>
+        <input placeholder="Enter the city or country name"/>
+        <button>Search</button>
+    </form>
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+</div>
+
+{{>footer}}
+<script src="/script/script.js"></script>
+</body>
+
+</html>
